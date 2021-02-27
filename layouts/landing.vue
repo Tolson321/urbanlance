@@ -87,7 +87,7 @@ export default {
       ],
       right: true,
       rightDrawer: false,
-      title: 'Time Watcher urbanlance'
+      title: 'Urbanlance'
     }
   }
 }
