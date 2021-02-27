@@ -1,0 +1,33 @@
+{
+  "name": "hz_timewatcher",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "test:e2e": "wdio wdio.conf.js"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.4",
+    "chart.js": "^2.9.4",
+    "chartjs-plugin-colorschemes": "^0.4.0",
+    "core-js": "^3.6.5",
+    "fs": "0.0.1-security",
+    "mysql": "^2.18.1",
+    "nuxt": "^2.14.6",
+    "read-excel-file": "^4.1.0",
+    "vue-chartjs": "^3.5.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.2",
+    "@wdio/cli": "^6.5.2",
+    "@wdio/local-runner": "^6.5.2",
+    "@wdio/mocha-framework": "^6.5.0",
+    "@wdio/spec-reporter": "^6.4.7",
+    "@wdio/sync": "^6.5.0",
+    "eslint-plugin-wdio": "^6.0.12",
+    "webdriverio": "^6.5.2"
+  }
+}
