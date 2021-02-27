@@ -2,3 +2,4 @@
 .dccache
 .DS_Store
 node_modules
+.nuxt
