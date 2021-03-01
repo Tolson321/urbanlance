@@ -13,7 +13,7 @@
                     <div class="flex-center">
                       <div class="circle1">
                         <div class="circle2">
-                          <v-img src="~@/assets/img/paperplane.svg"></v-img>
+                          <img src="~@/assets/img/paperplane.svg">
                         </div>
                       </div>
                     </div>
@@ -46,7 +46,7 @@
                     <div class="flex-center">
                       <div class="circle1">
                         <div class="circle2">
-                          <v-img src="~@/assets/img/airplane.svg"/>
+                          <img src="~@/assets/img/airplane.svg">
                         </div>
                       </div>
                     </div>
@@ -81,7 +81,7 @@
                     <div class="flex-center">
                       <div class="circle1">
                         <div class="circle2">
-                          <v-img src="~@/assets/img/aeroplane.svg"/>
+                          <img src="~@/assets/img/aeroplane.svg">
                         </div>
                       </div>
                     </div>

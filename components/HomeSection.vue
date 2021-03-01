@@ -70,7 +70,7 @@
         </v-col>
       </v-row>
       <div class="svg-border-waves text-white">
-        <v-img src="@/assets/img/borderWaves.svg" />
+        <img src="@/assets/img/borderWaves.svg">
       </div>
     </v-parallax>
     <v-container fluid id="features" class="mt-2">
