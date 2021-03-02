@@ -8,17 +8,15 @@
               <img src="@/assets/img/ill2.svg" class="d-block ml-auto mr-auto" max-width="350px" />
             </v-col>
             <v-col cols="12" sm="8" class="white--text text-left">
-              <h1 class="font-weight-light display-2 mb-2">Baixar Demonstração</h1>
+              <h1 class="font-weight-light display-2 mb-2">Sustainable Cities</h1>
               <h1 class="font-weight-light">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ex
-                animi quod laboriosam vel blanditiis labore alias, aliquid,
-                tempora repellendus non.
+                Any city can join our coalition to build more sustainable cities, insuring tax revenues are gathered. Our simple easy to use software keeps track of your property's progress and markets investments to stop urban decay. A new image just in time supporting civic development and cultural renaissance. 
               </h1>
-              <v-btn rounded outlined href="https://github.com/Joabsonlg/Landing-Page" target="_blank" large color="white" class="mt-4">
+              <v-btn rounded outlined href="/login" target="_blank" large color="white" class="mt-4 text--upercase v-ripple">
                 <v-icon class="mr-2">
-                  mdi-github
+                  mdi-bus-school
                 </v-icon>
-                Git Hub
+                request demo
               </v-btn>
             </v-col>
           </v-row>

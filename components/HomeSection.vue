@@ -1,17 +1,18 @@
 <template>
   <section id="hero">
-    <v-parallax dark src="@/assets/img/bgHero.jpg" height="750">
+    <v-parallax dark  height="750">
       <v-row align="center" justify="center">
+            <!-- <img class="mx-auto ml-n4 " src="@/assets/img/bgHero.jpg"> -->
         <v-col cols="10">
           <v-row align="center" justify="center">
             <v-col cols="12" md="6" xl="8">
-              <h1 class="display-2 font-weight-bold mb-4">Vuetify.js</h1>
-              <h1 class="font-weight-light">
-                Lorem ipsum dolor sit amet consectetur <br />
-                adipisicing elit. Maiores porro voluptatibus <br />
-                delectus nam optio harum!
+              <h1 class="display-2 font-weight-bold mb-4">Urban Lance</h1>
+              <h1 class="font-weight-light text--secondrary">
+                Connecting investors and rejuvenating the civic landscapes one tax lien at a time. <br />
+                Opportunity is around the corner. <br />
               </h1>
               <v-btn
+                v-ripple
                 rounded
                 outlined
                 large
@@ -19,7 +20,7 @@
                 @click="$vuetify.goTo('#features')"
                 class="mt-5"
               >
-                Saiba mais
+                Learn more
                 <v-icon class="ml-2">mdi-arrow-down</v-icon>
               </v-btn>
               <div class="video d-flex align-center py-4">
@@ -62,7 +63,7 @@
                     />
                   </svg>
                 </a>
-                <p class="subheading ml-2 mb-0">Assista o vídeo</p>
+                <p class="subheading ml-2 mb-0 all-caps text-uppercase">start bidding</p>
               </div>
             </v-col>
             <v-col cols="12" md="6" xl="4" class="hidden-sm-and-down"> </v-col>
@@ -138,18 +139,18 @@ export default {
       features: [
         {
           img: require("@/assets/img/icon2.png"),
-          title: "Design Limpo",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          title: "Smart Investment",
+          text: "Earn more than 10% interest on your money in Providence RI!",
         },
         {
           img: require("@/assets/img/icon1.png"),
-          title: "Dados Seguros",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          title: "Stability",
+          text: "Government backed. High interest security.",
         },
         {
           img: require("@/assets/img/icon3.png"),
-          title: "Código Aberto",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          title: "Grow & Diversify",
+          text: "Your investment portfolio needs a boost! Ensure a high return.",
         },
       ],
     };
