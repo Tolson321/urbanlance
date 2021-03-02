@@ -283,7 +283,7 @@ export default {
 }
 
 .zoom-efect {
-  transform: scale(1.1);
+  transform: scale(1.5);
 }
 
 .up {

@@ -5,8 +5,8 @@
         <v-col cols="10">
           <v-row align="center" justify="center">
             <v-col cols="12" md="7">
-              <h1 class="font-weight-light display-2">Sobre</h1>
-              <h1 class="font-weight-light display-1 mb-3">
+              <h1 class="font-weight-light black--text display-2">About</h1>
+              <h1 class="font-weight-light black--text display-1 mb-3">
                 Lorem ipsum dolor!
               </h1>
               <v-row>
@@ -16,7 +16,7 @@
                     max-width="60px"
                     class="mr-4"
                   />
-                  <p class="text-justify">
+                  <p class="black--text text-justify">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -28,7 +28,7 @@
                     max-width="60px"
                     class="mr-4"
                   />
-                  <p class="text-justify">
+                  <p class="black--text text-justify">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -40,7 +40,7 @@
                     max-width="60px"
                     class="mr-4"
                   />
-                  <p class="text-justify">
+                  <p class="black--text text-justify">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.

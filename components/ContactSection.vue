@@ -5,19 +5,19 @@
         <v-col cols="10">
           <v-row justify="center">
             <v-col cols="12" sm="5">
-              <h1 class="font-weight-light display-1">Contate-nos</h1>
-              <h3 class="font-weight-light mt-3">
+              <h1 class="black--text font-weight-light display-1">Contate-nos</h1>
+              <h3 class=" black--text font-weight-light mt-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
                 explicabo commodi quisquam asperiores dolore ad enim provident
                 veniam perferendis voluptate, perspiciatis.
               </h3>
-              <h3 class="font-weight-light mt-3">
+              <h3 class="black--text font-weight-light mt-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing.
               </h3>
-              <h3 class="font-weight-light mt-3">
+              <h3 class="black--text font-weight-light mt-3">
                 Telefone: +xx (xx) xxxxx-xxxx
               </h3>
-              <h3 class="font-weight-light">
+              <h3 class="black--text font-weight-light">
                 Email: email@email.com
               </h3>
             </v-col>
