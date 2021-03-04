@@ -13,8 +13,8 @@
             <img src="@/assets/img/logo.png" alt="Logo" />
           </v-list-item-avatar>
           <v-list-item-content>
-            <v-list-item-title class="title">Calango</v-list-item-title>
-            <v-list-item-subtitle>WEB</v-list-item-subtitle>
+            <v-list-item-title class="title">Urban Lance</v-list-item-title>
+            <v-list-item-subtitle>bid now</v-list-item-subtitle>
           </v-list-item-content>
         </v-list-item>
       </v-list>
@@ -98,8 +98,8 @@ export default {
       ["mdi-home-outline", "Home", "#hero"],
       ["mdi-information-outline", "About", "#features"],
       ["mdi-download-box-outline", "Download", "#download"],
-      ["mdi-currency-usd", "Preços", "#pricing"],
-      ["mdi-email-outline", "Contatos", "#contact"],
+      // ["mdi-currency-usd", "Preços", "#pricing"],
+      // ["mdi-email-outline", "Contatos", "#contact"],
     ],
   }),
   props: {
