@@ -2,11 +2,13 @@
   <v-app>
     <navigation :color="color" :flat="flat" />
     <v-main class="pt-0">
-      <home />
-      <about />
-      <download />
-      <!-- <pricing />
-      <contact /> -->
+      <!-- <propertyOverview />
+      <propertyDetails />
+      <costs />
+      <taxes />
+      <propertyImages />
+      <supportingDocs /> -->
+
     </v-main>
     <v-scale-transition>
       <v-btn
@@ -29,21 +31,29 @@
 
 <style scoped>
 .v-main {
-  background-image: url("~@/assets/img/bgMain.png");
+  background-image: url("~@/assets/img/bgHero.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
 }
 </style>
 
+      <propertyOverview />
+      <propertyDetails />
+      <costs />
+      <taxes />
+      <propertyImages />
+      <supportingDocs />
 <script>
 import navigation from '~/components/Navigation';
 import foot from '~/components/home/Footer';
-import home from '~/components/home/HomeSection';
-import about from '~/components/home/AboutSection';
-import download from '~/components/home/DownloadSection';
-// import pricing from '~/components/PricingSection';
-// import contact from '~/components/ContactSection';
+// import propertyOverview from '~/components/UserProperty/propertyOverview';
+// import propertyDetails from '~/components/UserProperty/propertyDetails';
+// import costs from '~/components/UserProperty/costs';
+// import taxes from '~/components/UserProperty/taxes';
+// import propertyImages from '~/components/UserProperty/propertyImages';
+// import supportingDocs from '~/components/UserProperty/supportingDocs';
+
 
 
 export default {
@@ -52,11 +62,12 @@ export default {
   components: {
     navigation,
     foot,
-    home,
-    about,
-    download,
-    // pricing,
-    // contact,
+    // propertyOverview,
+    // propertyDetails,
+    // costs,
+    // taxes,
+    // propertyImages,
+    // supportingDocs,
   },
 
   data: () => ({

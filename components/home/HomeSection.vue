@@ -1,8 +1,7 @@
 <template>
   <section id="hero">
-    <v-parallax dark  height="750">
+    <v-parallax dark src="@/assets/img/borderWaves.svg" height="750">
       <v-row align="center" justify="center">
-            <!-- <img class="mx-auto ml-n4 " src="@/assets/img/bgHero.jpg"> -->
         <v-col cols="10">
           <v-row align="center" justify="center">
             <v-col cols="12" md="6" xl="8">
