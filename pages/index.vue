@@ -23,7 +23,7 @@
         <v-icon>mdi-arrow-up</v-icon>
       </v-btn>
     </v-scale-transition>
-    <foote />
+    <foot />
   </v-app>
 </template>
 

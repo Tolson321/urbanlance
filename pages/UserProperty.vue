@@ -1,10 +1,10 @@
 <template>
   <v-app>
     <navigation :color="color" :flat="flat" />
-    <v-main class="pt-0">
+    <v-main>
+      <costs /> 
       <!-- <propertyOverview />
       <propertyDetails />
-      <costs />
       <taxes />
       <propertyImages />
       <supportingDocs /> -->
@@ -25,7 +25,7 @@
         <v-icon>mdi-arrow-up</v-icon>
       </v-btn>
     </v-scale-transition>
-    <foote />
+    <foot />
   </v-app>
 </template>
 
@@ -43,7 +43,7 @@
       <costs />
       <taxes />
       <propertyImages />
-      <supportingDocs />
+
 <script>
 import navigation from '~/components/Navigation';
 import foot from '~/components/home/Footer';
