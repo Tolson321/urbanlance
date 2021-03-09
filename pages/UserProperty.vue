@@ -3,9 +3,9 @@
     <navigation :color="color" :flat="flat" />
     <v-main>
       <costs /> 
+      <taxes />
       <!-- <propertyOverview />
       <propertyDetails />
-      <taxes />
       <propertyImages />
       <supportingDocs /> -->
 
@@ -50,7 +50,7 @@ import foot from '~/components/home/Footer';
 // import propertyOverview from '~/components/UserProperty/propertyOverview';
 // import propertyDetails from '~/components/UserProperty/propertyDetails';
 // import costs from '~/components/UserProperty/costs';
-// import taxes from '~/components/UserProperty/taxes';
+import taxes from '~/components/UserProperty/taxes';
 // import propertyImages from '~/components/UserProperty/propertyImages';
 // import supportingDocs from '~/components/UserProperty/supportingDocs';
 
@@ -65,7 +65,7 @@ export default {
     // propertyOverview,
     // propertyDetails,
     // costs,
-    // taxes,
+    taxes,
     // propertyImages,
     // supportingDocs,
   },
