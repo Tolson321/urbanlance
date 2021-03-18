@@ -2,13 +2,14 @@
   <v-app>
     <navigation :color="color" :flat="flat" />
     <v-main>
-      <costs /> 
-      <taxes />
-      <!-- <propertyOverview />
-      <propertyDetails />
-      <propertyImages />
-      <supportingDocs /> -->
-
+      <v-card>
+        <propertyDetails />
+        <costs /> 
+        <taxes />
+        <!-- <propertyOverview />
+        <propertyImages />
+        <supportingDocs /> -->
+      </v-card>
     </v-main>
     <v-scale-transition>
       <v-btn
@@ -48,7 +49,7 @@
 import navigation from '~/components/Navigation';
 import foot from '~/components/home/Footer';
 // import propertyOverview from '~/components/UserProperty/propertyOverview';
-// import propertyDetails from '~/components/UserProperty/propertyDetails';
+import propertyDetails from '~/components/UserProperty/propertyDetails';
 // import costs from '~/components/UserProperty/costs';
 import taxes from '~/components/UserProperty/taxes';
 // import propertyImages from '~/components/UserProperty/propertyImages';
@@ -63,7 +64,7 @@ export default {
     navigation,
     foot,
     // propertyOverview,
-    // propertyDetails,
+    propertyDetails,
     // costs,
     taxes,
     // propertyImages,

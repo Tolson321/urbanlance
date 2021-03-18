@@ -72,7 +72,7 @@
         </v-btn>
         <v-btn rounded outlined text @click="$vuetify.goTo('#contact')">
           <span class="mr-2">Contate-nos</span> -->
-        </v-btn>
+        <!-- </v-btn> -->
       </div>
     </v-app-bar>
   </div>
