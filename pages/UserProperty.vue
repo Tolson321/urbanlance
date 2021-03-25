@@ -3,11 +3,11 @@
     <navigation :color="color" :flat="flat" />
     <v-main>
       <v-card>
+        <propertyOverview />
         <propertyDetails />
         <costs /> 
         <taxes />
-        <!-- <propertyOverview />
-        <propertyImages />
+        <!-- <propertyImages />
         <supportingDocs /> -->
       </v-card>
     </v-main>
@@ -39,16 +39,10 @@
 }
 </style>
 
-      <propertyOverview />
-      <propertyDetails />
-      <costs />
-      <taxes />
-      <propertyImages />
-
 <script>
 import navigation from '~/components/Navigation';
 import foot from '~/components/home/Footer';
-// import propertyOverview from '~/components/UserProperty/propertyOverview';
+import propertyOverview from '~/components/UserProperty/propertyOverview';
 import propertyDetails from '~/components/UserProperty/propertyDetails';
 // import costs from '~/components/UserProperty/costs';
 import taxes from '~/components/UserProperty/taxes';
@@ -63,7 +57,7 @@ export default {
   components: {
     navigation,
     foot,
-    // propertyOverview,
+    propertyOverview,
     propertyDetails,
     // costs,
     taxes,
