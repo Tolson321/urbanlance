@@ -16,8 +16,8 @@
     "core-js": "^3.6.5",
     "fs": "0.0.1-security",
     "mysql": "^2.18.1",
-    "nuxt": "^2.14.6",
-    "read-excel-file": "^4.1.0",
+    "nuxt": "^2.2.0",
+    "read-excel-file": "^5.1.0",
     "vue-chartjs": "^3.5.1"
   },
   "devDependencies": {
